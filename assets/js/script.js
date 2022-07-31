@@ -29,13 +29,7 @@ function HourlyUpdate(){
 $('document').ready(function(){
     // save button click event
     saveBtn.on('click', function(){
-        var value = saveBtn.siblings('.description').val();
-        var time = saveBtn.parent().attr('id');
-        
         storeItem();
-        // save in local storage
-        localStorage.setItem(time, value);
-    
         // add class to show notification after saved to local storage
         notifications.addClass('show');
         // set timeout to remove notification after 3 seconds
