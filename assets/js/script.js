@@ -41,11 +41,8 @@ $('document').ready(function(){
 
     HourlyUpdate();
 
- 
-
     getItem();
-
-
+    
     // store in local storage
     function storeItem(){
         localStorage.setItem('hour-9', $('#hour-9 .description').val());
