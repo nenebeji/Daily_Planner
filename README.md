@@ -1,6 +1,6 @@
 # Daily Planner
 
-
+![screencapture-file-Users-nenebeji-Documents-bootcamp-challenges-Daily-Planner-index-html-2022-08-02-23_09_02](https://user-images.githubusercontent.com/105363883/182482156-296b7ba4-09a3-4e07-9e50-0aa3a7151479.png)
 
 > Time Organiser!
 
@@ -39,4 +39,5 @@ The aim of this project was to create a simple calender application allowing a u
 
 
 URL for application:
+
 
