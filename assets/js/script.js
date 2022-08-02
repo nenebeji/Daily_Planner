@@ -9,21 +9,26 @@ console.log(currentHOUR);
 //show current day on page
 $('#currentDay').text(moment().format('LLLL'));
 
+// function to change the colour when currenthour doesn't match with time on planner
 function HourlyUpdate(){
-    timeblock.each(function(){
-        var hourblock = parseInt(timeblock.attr('id').split('-')[1]);
-        if (hourblock < currentHOUR) {
-            timeblock.addClass('past');
-          } else if (hourblock === currentHOUR) {
-            timeblock.removeClass('past');
-            timeblock.addClass('present');
-          } else {
-            timeblock.removeClass('past');
-            timeblock.removeClass('present');
-            timeblock.addClass('future');
-          }
-    })
+timeblock.each(function(){
+  // selected the dataset: data-time and gave it var hourblock
+  hourblock = $(this).data('time')
+  if (hourblock < currentHOUR){
+    // found the specific section to add the css class
+    $(this).find('.description').addClass('past');
+  } else if (hourblock == currentHOUR) {
+    $(this).find('.description').removeClass('past');
+    $(this).find('.description').addClass('present');
+  } else {
+    $(this).find('.description').removeClass('past');
+    $(this).find('.description').removeClass('present');
+    $(this).find('.description').addClass('future');
+  }
 }
+)}
+
+
 
 // function to execute once DOM is fully loaded
 $('document').ready(function(){
@@ -68,4 +73,4 @@ $('document').ready(function(){
         $('#hour-16 .description').val(localStorage.getItem('hour-16'));
         $('#hour-17 .description').val(localStorage.getItem('hour-17'));
     }
-})
+  })
