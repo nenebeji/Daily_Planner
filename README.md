@@ -40,4 +40,4 @@ The aim of this project was to create a simple calender application allowing a u
 
 URL for application:
 
-
+https://nenebeji.github.io/Daily_Planner/
