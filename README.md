@@ -6,15 +6,25 @@
 
 ## Table of Contents
 
-* Description
+- [Project Description](#project-description)
 
-* * Problems Solved
+  - [Problems Solved](#problems-solved)
 
-* References
+- [Screenshots](#screenshots)
+
+- [Usage](#usage)
+
+- [How to Contribute](#how-to-contribute)
+
+- [Tests](#test)
+
+- [Questions](#questions)
+
+- [License](#license)
 
 
-## Description
-The aim of this project was to create a simple calender application allowing a user to save events for each hour.
+## Project Description
+This is a simple calender application that allows a user to save events for each hour.
 
 * When a user opens the daily planner, the current day, date and time is displayed at the top of the page.
 
