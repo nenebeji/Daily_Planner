@@ -13,7 +13,7 @@
 
 - [How to Contribute](#how-to-contribute)
 
-- [Tests](#test)
+- [Tests](#tests)
 
 - [Questions](#questions)
 
